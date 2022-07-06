@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:#262427 ;
+    max-width: 1000px;
+    margin:auto;
+
+}
+img{
+    width: 100%;
+}
+
+
+ul{
+    background: #ffffff ;
+    margin-top: -13px;
+    
+}
+li{
+    list-style: none;
+    padding: 5px;
+    margin: 10px; 
+}
+hr{
+    border: none;
+    border-top: 1px dotted black;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: auto;
+}
+.topic{
+    font-size: 20px;
+    font-weight: bold;
+    color: #404040;
+    padding-top: 20px;
+}
+.speaker{
+    font-size: 14px;
+    
+}
+.time{
+    font-size: 13px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin:0;
+    padding: 0;
+}
+
+nav .l1{
+    background: #f1e4d5;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    margin: 0 !important;
+    padding: 30px !important;
+}
+nav .l2{
+    background: #e7ab47;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    margin: 0 !important;
+    padding: 30px !important;
+}
+nav .l3{
+    background:#68470c ;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    margin: 0 !important;
+    padding: 30px !important;
+}
+nav .l4{
+    background: #cc9965;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    margin: 0 !important;
+    padding: 30px !important;
+}
+p{ 
+   color: white;
+   font-size: 20px;
+   margin:30px;
+   font-weight: bold;
+}
+
+.address{
+    font-size: 13px !important;
+}
+.layout{
+    display: flex;
+}
+.right{
+    width: 50%;
+
+    
+}
+.left{
+    width: 50%;
+}
+
+.info{
+    display: flex;
+    
+}
+.navi{
+    width: 100%;
+}
+.directions{
+    width: 100%;
+}
+@media (min-width:320px) and (max-width:768px){
+    .layout{ 
+        display: block;
+    }
+    .left{
+        width:100%;
+        box-sizing: border-box;
+        
+    }
+    .right{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .info{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
